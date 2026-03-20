@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Taller-Celulares/sw.js', { scope: '/Taller-Celulares/' })})}
